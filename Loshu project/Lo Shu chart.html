@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lo Shu Chart</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Lo Shu Chart Generator</h1>
+    <div class="form-container">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" />
+
+      <label for="nickname">Nickname:</label>
+      <input type="text" id="nickname" placeholder="Enter your nickname" />
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" />
+
+      <button onclick="generateLoShuChart()">Generate Chart</button>
+    </div>
+
+    <div id="loShuChartContainer" class="chart-container">
+      <h2>Lo Shu Chart</h2>
+      <div id="loShuChart" class="chart-grid"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
